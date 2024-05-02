@@ -14,7 +14,7 @@ class Movie{
   }
 
   public function getFullInfo(){
-    return "$this->name,$this->actors,$this->years";
+    return "$this->name,$this->actors,";
 
   }
  
