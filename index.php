@@ -3,7 +3,7 @@
 require_once __DIR__ . '/movie.php';
 
 $film = new Movie('QBR', 'micheal B.J',['2004','1990','1998','2000'] );
-var_dump($film);
+
 
 
 ?>
