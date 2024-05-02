@@ -3,18 +3,21 @@
 class Movie{
   public $name;
   public $actors;
-  public $year;
+  public $years;
 
-  public function __construct(string $name, string $actors, string $year){
-    $this-> name = $_name;
-    $this-> actors = $actors;
-    $this-> year = $year;
-
-  }
+  public function __construct(string $_name, string $_actors, array $_years)
   {
-    
+    $this-> name = $_name;
+    $this-> actors = $_actors;
+    $this-> years = $_years; 
+
   }
 
+  public function getFullInfo(){
+    return "$this->name,$this->actors,$this->years";
+
+  }
+ 
 
   
 
